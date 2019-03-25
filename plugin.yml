@@ -1,0 +1,21 @@
+name: BungeeBan
+main: de.greenman1805.bungeeban.Main
+version: 1.0
+author: Greenman1805
+depend: BungeeUUID
+
+commands:
+  ban:
+    description: Bannt einen Spieler
+  unban:
+    description: Entbannt einen Spieler
+  kick:
+    description: Spieler vom Server kicken
+  tempban:
+    description: Spieler zeitlich bannen
+    aliases: [timeban]
+  banlist:
+    description: Liste aller Bans
+    aliases: [bans]
+  baninfo:
+    description: Infos ueber einen Bann
