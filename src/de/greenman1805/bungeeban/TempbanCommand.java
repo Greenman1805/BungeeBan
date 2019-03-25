@@ -33,7 +33,7 @@ public class TempbanCommand extends Command {
 						}
 					}
 
-					if (BanAPI.isBanned(uuid)) {
+					if (!BanAPI.isBanned(uuid)) {
 						String time = args[1].toLowerCase();
 						if (time.endsWith("m") || time.endsWith("h") || time.endsWith("d")) {
 							String unit = time.substring(time.length() - 1);
